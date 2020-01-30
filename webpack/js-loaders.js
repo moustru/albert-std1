@@ -1,10 +1,8 @@
-const babelOptions = require('./babel')
 const isDev = process.env.NODE_ENV === 'development'
 
 const jsLoaders = () => {
   const loaders = [{
-    loader: 'babel-loader',
-    options: babelOptions()
+    loader: 'babel-loader'
   }]
 
   if (isDev) loaders.push('eslint-loader')

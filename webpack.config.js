@@ -2,7 +2,6 @@ const path = require('path')
 const optimization = require('./webpack/optimization')
 const plugins = require('./webpack/plugins')
 const jsLoaders = require('./webpack/js-loaders')
-const babelOptions = require('./webpack/babel')
 const { filename } = require('./webpack/utils')
 const isDev = process.env.NODE_ENV === 'development'
 
