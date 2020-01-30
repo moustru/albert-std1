@@ -1,6 +1,5 @@
 // Задание 1
 export function reverseString(str) {
-  return str.split('').reverse().join('')
   // your code here
 }
 
